@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Arimo', sans-serif;
+}
+
+
+header{
+    background-color: #ee3026;
+    color: white;
+    padding: 10px ;
+}
+
+header .latest{
+    width: 30%;
+}
+
+header .message{
+    width: 70%;
+}
+
+nav .menu{
+    width: 70%;
+}
+nav .logo{
+    width: 30%;
+}
+
+   
+nav .chattogram{
+    display:inline-block;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #666;
+   padding-left: 8px;
+   font-weight: 400;
+    }
+
+nav .menu ul{
+    text-align: right;
+}
+
+nav .menu ul li{
+    display: inline-block;
+}
+
+nav .menu ul li a{
+    font-size: 16px;
+    color: #444;
+    text-transform: capitalize;
+    padding: 25px 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+nav .menu ul li:hover a{
+    color: red;
+}
+
+nav .menu ul li:last-child a{
+    background-color: red;
+    color: white;
+}
+
+
+#banner img{
+width: 100%;
+display: block;
+}
+
+#about{
+    padding: 40px 0;
+}
+
+#about .about_img{
+    width: 40%;
+}
+
+#about .about_img img{
+    width: 100%;
+    display: block;
+}
+
+#about .about_text{
+   width: 60%;
+ padding: 0 30px;
+}
+
+#about .about_text h2{
+    color: #5b6b80;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#about .about_text p{
+ color: #777;
+ font-size: 16px;
+ line-height: 26px;
+ margin-top: 16px;
+}
+
+#upcoming .container h2{
+    font-family: 'Arimo', sans-serif;
+    color: #444;
+    font-size: 32px;
+    font-weight: 400;
+    background-color: #dddddda3;
+    border-bottom: none;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.body{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    font-family:'Arimo', sans-serif;
+    
+    
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+
+.header-fixed{
+    height: 500px;
+    overflow: auto;
+    margin-top: 30px;
+    
+   }
+
+.header-fixed thead th{
+        position: sticky;
+        top: 0;
+        background-color:#49596d;
+        color:#fff!important;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 15px;
+}
+
+th,td{
+    border: 1px solid #dddd;
+    padding: 7px 68px;
+    font-size: 16px;
+
+}
+
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+td button{
+    font-family: 'Arimo', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    padding: 10px 40px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #49596d;
+    transition: all linear .3s;
+    
+}
+button:hover{
+    background-color: red;
+    transition: 0.3s;
+    
+
+}
